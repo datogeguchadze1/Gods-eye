@@ -1601,7 +1601,7 @@ body.ui-clean-view #scene-runtime.active {
 }
 
 #param-slider-panel:not(.collapsed) .param-panel-divider {
-  background: linear-gradient(90deg, rgb(var(--accent-rgb) / 28%), rgba(var(--accent-rgb), 0.18) 58%, transparent);
+  background: linear-gradient(90deg, rgba(var(--accent-rgb), 0.28), rgba(var(--accent-rgb), 0.18) 58%, transparent);
 }
 
 .param-slider-row {
@@ -3467,7 +3467,7 @@ body.cockpit-mode #view-switcher button {
   box-shadow: none;
 }
 .cockpit-utility-control.is-expanded .cockpit-utility-divider {
-  background: linear-gradient(90deg, rgb(var(--accent-rgb) / 28%), rgba(var(--accent-rgb), 0.18) 58%, transparent);
+  background: linear-gradient(90deg, rgba(var(--accent-rgb), 0.28), rgba(var(--accent-rgb), 0.18) 58%, transparent);
   box-shadow: 0 0 7px rgba(var(--accent-rgb), .22);
 }
 .cockpit-utility-glyph {
@@ -6550,12 +6550,12 @@ body.cockpit-mode #intel-hud .hud-right-edge { right: 22px; }
 }
 
 #left-panel-stack > [data-panel-id]:not(.collapsed) .panel-divider {
-  background: linear-gradient(90deg, rgb(var(--accent-rgb) / 28%), rgba(var(--accent-rgb), 0.18) 58%, transparent);
+  background: linear-gradient(90deg, rgba(var(--accent-rgb), 0.28), rgba(var(--accent-rgb), 0.18) 58%, transparent);
   box-shadow: 0 0 7px rgba(var(--accent-rgb), 0.22);
 }
 
 #right-context-rail [data-panel-id]:not(.collapsed) .panel-divider {
-  background: linear-gradient(90deg, rgb(var(--accent-rgb) / 28%), rgba(var(--accent-rgb), 0.18) 58%, transparent);
+  background: linear-gradient(90deg, rgba(var(--accent-rgb), 0.28), rgba(var(--accent-rgb), 0.18) 58%, transparent);
   box-shadow: 0 0 7px rgba(var(--accent-rgb), 0.22);
 }
 
